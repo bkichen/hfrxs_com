@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8">
+    <title>用户登录-新笔下文学-合肥小说网</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="MobileOptimized" content="240">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<script src="js/wap.js"></script>
+<style>
+	.login{margin:0px 7px 10px 7px;}
+	.login table{width:100%;}
+	.login table .td1{width:50px;padding:20px 0px;}
+	.login_name{border:1px solid #B7F3F9;height:25px;width:95%;border-radius:3px;}
+	.login_btn{ display:block;margin:20px 10px 20px 10px; text-align:center;color:#fff; font-weight:bold;height:40px; line-height:40px;border-radius:2px}
+	.login_tips{ display:block;margin:20px 10px 20px 10px;  text-align:center;color:red; font-weight:bold;height:40px; line-height:40px;border-radius:2px}
+</style>
+</head>
+<body>
+<div class="header" id="_52mb_head">
+    <div class="back"><a href="javascript:history.go(-1);">返回</a></div>
+	<h1 id="_52mb_h1">用户登录</h1>
+	<div class="back_r"><a href="index.html">首页</a></div>
+    <script>fixwidth();</script>
+</div>
+
+    <div>
+    	<div class="login">
+            <table>
+                <tr>
+                    <td class="td1">帐号：</td><td><input id="username" type="text" size="20" maxlength="30" class="login_name"></td>
+                </tr>
+            </table>
+            <table>   
+                <tr>    
+                    <td class="td1">密码：</td><td><input id="userpass" size="20" maxlength="30" type="password" name="password" class="login_name"></td>
+                </tr>
+            </table>
+        </div>
+            
+            
+            <script>document.writeln("<a class='login_btn c_login_button' onclick=\"login()\" >登录<\/a>");</script>
+    </div>
+    
+    <div><a class="login_btn c_login_button" href="javascript:;">没有账号？点击注册</a></div>
+    
+    <div id="logintips" class="login_tips"></div>
+</body>
+</html>
